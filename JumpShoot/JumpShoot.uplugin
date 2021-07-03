@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "JumpShoot",
+	"Description": "Allow player to jump and shoot or ADS at a same time ",
+	"Category": "Other",
+	"CreatedBy": "Circleus (zWolfi)",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"Installed": false
+}
