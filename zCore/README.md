@@ -23,6 +23,9 @@ What exactly is zCore? zCore is a framework that let user has a mod setting UI i
 ![image](https://user-images.githubusercontent.com/1011211/188298097-1420cf1d-24b3-4af2-b3d0-429d6d42cbab.png)<br><br>
 Each setting must have a name and a description. They will show up in the user UI.<br><br>
 
+**ID**<br>
+This is optional. It just special ID for your to keep track of your setting instead of using index<br><br>
+
 **Type**<br>
 There are 4 type of settings. Checkbox, Value, Dropdown, and keybind. You MUST pick 1 of these type.<br><br>
 
@@ -43,5 +46,8 @@ A list for drop down. (Only apply if you are using dropdown type). You have 2 co
 This is the default ID that the user first time loading this setting. The ID must be the same as the dropdown list you put above.<br>
 **Note:** Case sensitive<br><br>
 
-**Keybind**
-This only apply if your setting type is keybind. Make sure you have the binding name and description. Action Mapping is what the input key call (Make sure this is really unique and best to have no space so it won't have conflict with other mod). There is no default keybind for user so user will have to bind it themselves.
+**Keybind**<br>
+This only apply if your setting type is keybind. Make sure you have the binding name and description. Action Mapping is what the input key call (Make sure this is really unique and best to have no space so it won't have conflict with other mod). There is no default keybind for user so user will have to bind it themselves.<br><br>
+
+**Default Key**<br>
+The default key for this keybind.
