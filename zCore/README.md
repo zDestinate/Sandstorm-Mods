@@ -50,4 +50,14 @@ This is the default ID that the user first time loading this setting. The ID mus
 This only apply if your setting type is keybind. Make sure you have the binding name and description. Action Mapping is what the input key call (Make sure this is really unique and best to have no space so it won't have conflict with other mod). There is no default keybind for user so user will have to bind it themselves.<br><br>
 
 **Default Key**<br>
-The default key for this keybind.
+The default key for this keybind.<br><br><br>
+
+
+## Server and Client
+Your zCore is spawn on server. It basically run on both server and client. However, all zCore event will be run on client only except **OnServerExecuted** event.<br><br>
+![9qFP7LlhnZ](https://user-images.githubusercontent.com/1011211/188524841-4c9f0238-b885-43b0-9263-6bb049342332.png)<br><br>
+
+This event will fire when you call this function.<br><br>
+![image](https://user-images.githubusercontent.com/1011211/188524986-48435b37-3e53-4aec-a71a-4ab1f0cc2568.png)<br><br>
+
+Beware, only use this function when you want the server to do something. It can affect the entire map and gameplay
