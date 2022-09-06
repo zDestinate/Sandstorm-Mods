@@ -1,4 +1,5 @@
 # zCore
+https://insurgencysandstorm.old.mod.io/zcore<br><br>
 This read me is for mod dev.<br>
 What exactly is zCore? zCore is a framework that let user has a mod setting UI in game.<br><br>
 
