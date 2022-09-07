@@ -55,7 +55,7 @@ The default key for this keybind.<br><br><br>
 
 
 ## Server and Client
-Your zCore is spawn on server. It basically run on both server and client. However, all zCore events will be run on client only except **OnServerExecuted** event.<br><br>
+Your zCore is spawn on server. It basically replicate on both server and client. However, all zCore events will be run on client only except **OnServerExecuted** event.<br><br>
 ![9qFP7LlhnZ](https://user-images.githubusercontent.com/1011211/188524841-4c9f0238-b885-43b0-9263-6bb049342332.png)<br><br>
 
 This event will fire when you call this function.<br><br>
